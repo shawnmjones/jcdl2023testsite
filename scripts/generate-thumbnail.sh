@@ -22,5 +22,5 @@ new_height=`echo $width/$target_aspect_ratio | bc`
 #convert -define png:size=2560x1920 "${in}" -alpha off -thumbnail '450x345>' \
 #        -background black -gravity center -extent 450x345 "${out}"
 
-convert -define png:size=2560x1920 "${in}" -alpha off -thumbnail '450x345>' \
+convert -define png:size=4096x3024 "${in}" -alpha off -thumbnail '319x213>' \
         -background black -gravity center -extent 319x213 "${out}"
